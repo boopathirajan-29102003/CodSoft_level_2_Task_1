@@ -1,0 +1,150 @@
+*{
+    font-family: roboto;
+    margin: 0;
+}
+@media only screen and (min-width:600px) {
+    .main{
+        height: auto;
+        width: 100%;
+        background-color: #fae9df	;
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+    .name_head{
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 1rem;
+        color: #8e6565;
+        font-size: 2rem;
+    }
+    .quote_head{
+        text-align: center;
+        color: #8e6565;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .contents{
+        width: 60%;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+        box-shadow: 2px 3px 5px 5px #dc8c8c;
+    }
+    .images{
+        width: 30%;
+        padding-top:1rem ;
+    }
+    .biography{
+        height: auto;
+        width: 100%;
+    }
+    .head_content{
+        font-size: 1.1rem;
+        color: 	#8e6565;
+        text-decoration: underline;
+        padding-top: 1rem;
+    }
+    .para_content{
+        font-size: 1rem;
+        color: 	#494542;
+        text-indent: 2rem;
+        text-align: justify;
+        margin: .5rem;
+        line-height: 1.6;
+    }
+    b:hover{
+        color: #000000;
+    }
+    .honors{
+        min-height:250px;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .achievement{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom_footer{
+        font-size: 1rem;
+        text-align: center  ;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+}
+@media only screen and (max-width:600px) {
+    
+    .name_head{
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 1rem;
+        color: #8e6565;
+        font-size: 1.5rem;
+    }
+    .quote_head{
+        text-align: center;
+        color: #8e6565;
+    }
+    .images{
+        width: 100%;
+        padding-top:1rem ;
+    }
+    .main{
+        height: 100%;
+        width: 100%;
+        background-color: #fae9df	;
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+    .contents{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: .5rem;
+        border-bottom: .2rem solid #dc8c8c;
+    }
+    .biography{
+        height: auto;
+        width: 100%;
+    }
+    .head_content{
+        padding-top: .5rem;
+        font-size: 1.2rem;
+        color: 	#8e6565;
+        text-align: justify;
+    }
+    .para_content{
+        font-size: 1rem;
+        line-height: 1.5;
+        color: 	#494542;
+        text-indent: 2rem;
+        text-align: justify;
+        margin: .5rem;
+    }
+    .bottom_footer{
+        font-size: .8rem;
+        text-align: center  ;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+}
